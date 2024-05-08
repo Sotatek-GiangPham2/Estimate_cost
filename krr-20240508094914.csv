@@ -1,0 +1,29 @@
+Namespace,Name,Pods,Old Pods,Type,Container,CPU Diff,CPU Requests,CPU Limits,Memory Diff,Memory Requests,Memory Limits
+develop,datalake-minio,1,1,Deployment,minio,+33m,(+33m) unset -> 33m,unset,-13Gi,(-13Gi) 16Gi -> 2580Mi,unset -> 2580Mi
+develop,dataplatform-backend-deployment,1,134,Deployment,dataplatform-backend-pod,+26m,(+26m) unset -> 26m,unset,+492Mi,(+492Mi) unset -> 492Mi,unset -> 492Mi
+develop,dataplatform-chatpot-deployment,1,132,Deployment,dataplatform-chatpot-pod,+24m,(+24m) unset -> 24m,unset,+290Mi,(+290Mi) unset -> 290Mi,unset -> 290Mi
+develop,dataplatform-frontend-deployment,1,68,Deployment,dataplatform-frontend-pod,+10m,(+10m) unset -> 10m,unset,+100Mi,(+100Mi) unset -> 100Mi,unset -> 100Mi
+develop,milvus-minio,1,0,Deployment,minio,+10m,(+10m) unset -> 10m,unset,-1894Mi,(-1894Mi) 2048Mi -> 154Mi,unset -> 154Mi
+develop,milvus-standalone,1,0,Deployment,standalone,+66m,(+66m) unset -> 66m,unset,+280Mi,(+280Mi) unset -> 280Mi,unset -> 280Mi
+develop,mongodb-mongodb-sharded-mongos,2,0,Deployment,mongos,+358m,(+179m) unset -> 179m,unset,+444Mi,(+222Mi) unset -> 222Mi,unset -> 222Mi
+develop,sotaicg-service-es-dataset-deployment,1,54,Deployment,sotaicg-service-es-dataset,+10m,(+10m) unset -> 10m,unset,+123Mi,(+123Mi) unset -> 123Mi,unset -> 123Mi
+develop,sotaicg-service-es-file-deployment,1,58,Deployment,sotaicg-service-es-file,+10m,(+10m) unset -> 10m,unset,+122Mi,(+122Mi) unset -> 122Mi,unset -> 122Mi
+develop,sotaicg-service-es-master-metadata-deployment,1,60,Deployment,sotaicg-service-es-master-metadata,+10m,(+10m) unset -> 10m,unset,+122Mi,(+122Mi) unset -> 122Mi,unset -> 122Mi
+develop,sotaicg-service-es-search-center-deployment,1,57,Deployment,sotaicg-service-es-search-center,+10m,(+10m) unset -> 10m,unset,+125Mi,(+125Mi) unset -> 125Mi,unset -> 125Mi
+develop,sotaicg-service-es-wiki-document-deployment,1,46,Deployment,sotaicg-service-es-wiki-document,+10m,(+10m) unset -> 10m,unset,+123Mi,(+123Mi) unset -> 123Mi,unset -> 123Mi
+develop,sotaicg-service-es-wiki-paragraph-deployment,1,86,Deployment,sotaicg-service-es-wiki-paragraph,+10m,(+10m) unset -> 10m,unset,+123Mi,(+123Mi) unset -> 123Mi,unset -> 123Mi
+develop,sotaicg-service-es-workspace-deployment,1,59,Deployment,sotaicg-service-es-workspace,+10m,(+10m) unset -> 10m,unset,+122Mi,(+122Mi) unset -> 122Mi,unset -> 122Mi
+develop,sotaicg-service-internal-dataset-deployment,1,62,Deployment,sotaicg-service-internal-dataset,-190m,(-190m) 200m -> 10m,500m -> unset,-100Mi,(-100Mi) 200Mi -> 100Mi,1000Mi -> 100Mi
+develop,sotaicg-service-internal-master-metadata-deployment,1,57,Deployment,sotaicg-service-internal-master-metadata,-190m,(-190m) 200m -> 10m,500m -> unset,-100Mi,(-100Mi) 200Mi -> 100Mi,1000Mi -> 100Mi
+develop,sotaicg-service-internal-workspace-deployment,1,62,Deployment,sotaicg-service-internal-workspace,-190m,(-190m) 200m -> 10m,500m -> unset,-100Mi,(-100Mi) 200Mi -> 100Mi,1000Mi -> 100Mi
+develop,sotaicg-service-milvus-file-deployment,1,92,Deployment,sotaicg-service-milvus-file,+10m,(+10m) unset -> 10m,unset,+126Mi,(+126Mi) unset -> 126Mi,unset -> 126Mi
+develop,sotaicg-service-milvus-wiki-paragraph-deployment,1,77,Deployment,sotaicg-service-milvus-wiki-paragraph,+10m,(+10m) unset -> 10m,unset,+125Mi,(+125Mi) unset -> 125Mi,unset -> 125Mi
+develop,elasticsearch-master,3,0,StatefulSet,elasticsearch,-2.9699999999999998,(-990m) 1.0 -> 10m,1.0 -> unset,-1524Mi,(-508Mi) 2048Mi -> 1540Mi,2048Mi -> 1540Mi
+develop,milvus-etcd,1,0,StatefulSet,etcd,+16m,(+16m) unset -> 16m,unset,+100Mi,(+100Mi) unset -> 100Mi,unset -> 100Mi
+develop,mongodb-dev,3,0,StatefulSet,mongodb,-911m,(-304m) 500m -> 196m,750m -> unset,-6144Ki,(-2048Ki) 512Mi -> 510Mi,768Mi -> 510Mi
+develop,mongodb-mongodb-sharded-configsvr,3,0,StatefulSet,mongodb,+372m,(+124m) unset -> 124m,unset,+1215Mi,(+405Mi) unset -> 405Mi,unset -> 405Mi
+develop,mongodb-mongodb-sharded-shard0-data,3,0,StatefulSet,mongodb,+312m,(+104m) unset -> 104m,unset,+651Mi,(+217Mi) unset -> 217Mi,unset -> 217Mi
+develop,mongodb-mongodb-sharded-shard1-data,3,0,StatefulSet,mongodb,+324m,(+108m) unset -> 108m,unset,+681Mi,(+227Mi) unset -> 227Mi,unset -> 227Mi
+develop,mongodb-mongodb-sharded-shard2-data,3,0,StatefulSet,mongodb,+333m,(+111m) unset -> 111m,unset,+1128Mi,(+376Mi) unset -> 376Mi,unset -> 376Mi
+develop,mongodb-mongodb-sharded-shard3-data,3,0,StatefulSet,mongodb,+324m,(+108m) unset -> 108m,unset,+684Mi,(+228Mi) unset -> 228Mi,unset -> 228Mi
+develop,redis-master,1,0,StatefulSet,redis,-70m,(-70m) 100m -> 30m,150m -> unset,-28Mi,(-28Mi) 128Mi -> 100Mi,192Mi -> 100Mi
